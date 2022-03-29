@@ -1,0 +1,8 @@
+"Escribe un programa que pida un nombre de usuario y una contraseña y si se ha introducido “pepe” y “passwd#” se indica “Has entrado al sistema”, sino se da un error."
+
+usuario=input("Usuario:")
+clave=input("Contraseña:")		
+if usuario=="pepe" and clave=="asdasd":
+	print("Has entrado en el sistema")
+else:
+  	print("Error")
